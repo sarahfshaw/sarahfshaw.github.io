@@ -513,7 +513,7 @@ p {
   }
 
   .map-text2 {
-    order: 3;
+    order: 1;
   }
 
 
@@ -553,8 +553,8 @@ p {
   }
 
   #socialfooter img {
-    width: 25px;
-    margin: 2px;
+    width: 15px;
+    margin: 3px;
   }
 
   .subscribe {
@@ -562,10 +562,21 @@ p {
     border-color: white;
     border-style: solid;
     padding: 5px;
-    max-width: 250px;
-    justify-content: center;
+    /* max-width: 600px; */
+    display: block;
+    text-align: center;
 
 
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: row;
   }
 
   .social-subscribe {
