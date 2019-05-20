@@ -1,0 +1,688 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+/* LOGO AND SOCIAL INCON SECTION  */
+
+/* .logo-social {
+  display: flex;
+
+} */
+
+#social {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+
+}
+
+#social img {
+  width: 20px;
+  margin: 3px;
+
+}
+
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width:10px;
+    height: auto; */
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+/* NAVIGATION SECTION  */
+
+.navigation {
+  text-align: center;
+}
+
+.navigation a{
+    padding:20px 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+  color:deepskyblue;
+  overflow: hidden;
+}
+
+.navigation ul ul.nested-list {
+  display: none;
+  position: absolute;
+}
+
+.navigation ul li:hover > ul.nested-list {
+		display: block;
+	}
+
+  .navigation ul.nested-list:after {
+  		content: "";
+      clear: both;
+      display: block;
+      color:red;
+  	}
+
+    li:hover ul.nested-list {
+        display: block;
+    }
+
+    li {
+      display: inline;
+      position: relative;
+    }
+
+
+    nav ul ul {
+
+      left: 0;
+      /* top: 300%; */
+      list-style: none;
+      background: white;
+      z-index: 99;
+      padding: 5px;
+      margin-bottom: 20px;
+      text-align: center;
+      /* width: 10px; */
+    }
+    #mobile-menu-button {
+      color: #000;
+      display: none;
+    }
+
+/* CAROSEL IMAGES SECTION  */
+
+/* .carosel img {
+  max-width: 100%;
+  width: 100%
+  height: auto;
+} */
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.carousel {
+	width: 100%;
+  max-width: 100%
+	/* margin: 0 auto; */
+}
+
+.carousel img {
+	max-width: 100%;
+  width: 100%;
+}
+
+img {
+	max-width: 100%;
+  width: 100%;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+.slick-next {
+  right: 10px;
+	z-index: 1;
+}
+
+
+
+/* MEET SARAH SECTION  */
+.aboutmeimages img {
+  width: 400px;
+  height: auto;
+}
+
+.aboutmeimages {
+  padding-top: 150px;
+  position: relative;
+  display: block;
+  width: 100%;
+  justify-content: center;
+}
+
+.francepic {
+  z-index: 3;
+  top: 60px;
+  left: 180px;
+  position: absolute;
+}
+
+.francepic img {
+  width: 400px;
+  height: auto;
+}
+
+.canyonpic {
+  z-index: 2;
+  top: 60px;
+  left: 680px;
+  position: absolute;
+
+}
+
+.canyonpic img {
+  width: 400px;
+  height: auto;
+}
+
+.swisspic {
+  z-index: 3;
+  top: 290px;
+  left: 150px;
+  position: absolute;
+}
+
+.swisspic img {
+  width: 420px;
+  height: auto;
+}
+
+.camerapic {
+  z-index: 7;
+  top: 290px;
+  left: 660px;
+  position: absolute;
+}
+
+.camerapic img {
+  width: 400px;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.textbox {
+  background-color: #fff;
+  border: 1px deepskyblue;
+  border-style: solid;
+  width: 260px;
+  height: 310px;
+  padding: 10px 46px 25px;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  font-size: 12px;
+  top: 0px;
+  bottom: 50px;
+  left: 480px;
+  position: relative;
+}
+
+.readmore a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.readmore {
+  text-align: center;
+  border: 1px deepskyblue;
+  border-style: solid;
+  margin-bottom: 3px;
+}
+
+
+
+/* ----MAP SECTION---- */
+
+h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.flex-mapcontainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.location2 {
+  width: 500px;
+  height: auto;
+}
+
+/* .location2 {
+  text-align: center;
+}
+
+.location3 {
+  float: right;
+} */
+
+
+/* <!-- FOOTER SECTION--> */
+
+.footer {
+  /* height: 150px; */
+  max-width: 100%;
+  width: 100%
+  padding: 10px;
+  background-color: #00AEEF;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footertext {
+  margin-top: 50px;
+
+  justify-content: flex-start;
+  font-size: 12px;
+}
+.footerlogo {
+  justify-content: center;
+
+
+}
+
+.footerlogo img {
+  width: 200px;
+  height: auto;
+}
+
+#social img {
+  width: 15px;
+  margin: 3px;
+
+}
+
+#socialfooter {
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+
+}
+
+#socialfooter img {
+  width: 15px;
+  margin: 3px;
+}
+
+.subscribe {
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  padding: 5px;
+  margin-top: 20px;
+  max-width: 300px;
+
+
+}
+
+.subscribe-text {
+  text-align: center;
+  font-size: 17px;
+}
+
+.mc-field-group {
+  font-size: 14px;
+  display: flex;
+}
+
+
+.clear {
+  text-align: center;
+}
+
+.social-subscribe {
+  justify-content: flex-end;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+/* <!-- END OF FOOTER SECTION--> */
+
+/* <!-- PAGE NAMES--> */
+
+.pagename {
+  font-size: 12px;
+  margin: 0px 0px;
+
+}
+
+/* <!-- ABOUT ME PAGE--> */
+
+.meetsarah img {
+  max-width: 100%;
+  height: auto;
+}
+
+.abouttext {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  float: center;
+}
+
+.flex-bucketlistcontainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.flex-bucketlistcontainer li {
+  display: list-item;
+  margin-bottom: 10px;
+}
+
+/* <!-- END OF ABOUT ME PAGE--> */
+
+/* <!-- start of blog Images section --> */
+
+.blog-image-container  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+.blog-image-container img {
+  width: 250px;
+  height: auto;
+
+}
+
+.blog-image-title {
+  text-align: center;
+  width: 250px;
+}
+
+.blog-image-title a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.blog-image-title a:hover{
+    color:deepskyblue;
+    overflow: hidden;
+}
+
+.blog-image-item {
+  margin: 20px;
+  text-align: center;
+}
+
+/* <!-- end of blog Images section --> */
+
+.blogpost-title {
+  font-size: 30px;
+  color: deepskyblue;
+  text-align: center;
+}
+
+.blogpost-pictures {
+ text-align: center;
+
+
+}
+
+.blogpost-pictures img{
+  width: 500px;
+  height: auto;
+
+
+}
+
+.blogpost-content {
+  margin: 0px 100px;
+  float: center;
+}
+
+.blogpost-content li{
+  display: list-item;
+  margin-bottom: 10px;
+}
+
+
+.pinterest {
+  text-align: center;
+}
+
+/* --AMAZON LINKS--  */
+
+.amazon img{
+  max-width: 100px;
+}
+
+
+
+
+/* ----RESPONSIVE DESIGN---- */
+
+
+p {
+
+}
+
+.some-default-style {
+
+}
+
+/* Extra Large devices (large desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  /* styles go here */
+}
+
+/*
+  Large devices (desktops, 992px and down)
+*/
+@media only screen and (max-width: 992px) {
+  /* styles go here */
+
+}
+
+/*
+  Medium devices (tablets, 768px and down)
+*/
+@media only screen and (max-width: 768px) {
+  /* styles go here */
+
+  /* -----MAP SECTION----- */
+  .flex-mapcontainer {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .map-text2 {
+    order: 3;
+  }
+
+
+
+  /* -------FOOTER SECTION------- */
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 4;
+  }
+  .footertext {
+    margin-top: 40px;
+    text-align: center;
+    order: 4;
+  }
+  .footerlogo {
+    justify-content: center;
+    text-align: center;
+
+
+  }
+
+  .footerlogo img {
+    width: 150px;
+    height: auto;
+  }
+
+
+
+  #socialfooter {
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+
+  }
+
+  #socialfooter img {
+    width: 25px;
+    margin: 2px;
+  }
+
+  .subscribe {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    max-width: 250px;
+    justify-content: center;
+
+
+  }
+
+  .social-subscribe {
+    text-align: center;
+
+  }
+
+/* ------NAVIGATION SECTION------- */
+  .navigation {
+    /* padding: 0 8px; */
+    padding-left: 200px;
+
+  }
+  .navigation ul {
+    flex-wrap: wrap;
+
+
+  }
+
+  .navigation ul{
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: right;
+    justify-content: flex-end;
+  }
+
+  #mobile-menu-button {
+    display: block;
+    text-align: right;
+  }
+
+  /* .nav-container {
+    display: none;
+  } */
+
+  .nav-container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-align: right;
+
+
+}
+
+.nav-container.showing {
+  transition: all 500ms ease-in-out;
+  max-height: 500px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-container.hiding {
+  transition: all 500ms ease-in-out;
+  max-height: 0px;
+}
+
+
+.nav-container ul {
+  margin-left: 0px;
+  margin-bottom: 5px;
+  width: 100%;
+
+
+}
+
+.navigation ul ul.nested-list {
+  display: block;
+
+}
+
+.navigation ul ul.nested-list {
+  display: none;
+  position: relative;
+
+}
+
+.navigation ul li:hover > ul.nested-list {
+		display: block;
+	}
+
+  .navigation ul.nested-list:after {
+  		content: "";
+      clear: both;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+  	}
+
+    li:hover ul.nested-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+
+    }
+    nav ul ul {
+
+      left: 00;
+      /* top: 300%; */
+      list-style: none;
+      background: white;
+      z-index: 99;
+      padding: 5px;
+      margin-bottom: 20px;
+      text-align: left;
+
+      /* width: 10px; */
+
+
+}
+
+/*
+  Small devices (landscape phone, 576px and down)
+*/
+@media only screen and (max-width: 576px) {
+  /* styles go here */
+}
