@@ -98,6 +98,8 @@ html{
       padding: 5px;
       margin-bottom: 20px;
       text-align: center;
+      font-size: 14px;
+      font-weight: 600;
       /* width: 10px; */
     }
     #mobile-menu-button {
@@ -288,18 +290,19 @@ h2 {
 
 .footertext {
   margin-top: 50px;
-
+  margin-left: 10px;
   justify-content: flex-start;
   font-size: 12px;
 }
 .footerlogo {
   justify-content: center;
+  margin-top: 10px;
 
 
 }
 
 .footerlogo img {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -327,6 +330,8 @@ h2 {
   border-style: solid;
   padding: 5px;
   margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   max-width: 300px;
 
 
@@ -488,22 +493,208 @@ p {
 
 /* Extra Large devices (large desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
-  /* styles go here */
+  .canyonpic {
+    left:640px;
+  }
+  .camerapic {
+    left: 620px;
+  }
+
+  .swisspic {
+  left: 110px;
+
+  }
+
+  .francepic {
+  left: 140px;
+
+  }
+
+  .textbox {
+    left: 440px;
+
 }
 
+@media only screen and (max-width: 1056px) {
+  .canyonpic {
+    left:620px;
+  }
+  .camerapic {
+    left: 600px;
+  }
+
+  .swisspic {
+  left: 90px;
+
+  }
+
+  .francepic {
+  left: 120px;
+
+  }
+
+  .textbox {
+    left: 420px;
+
+}
+
+}
+
+@media only screen and (max-width: 1040px) {
+  .canyonpic {
+    left:600px;
+  }
+  .camerapic {
+    left: 580px;
+  }
+
+  .swisspic {
+  left: 50px;
+
+  }
+
+  .francepic {
+  left: 100px;
+
+  }
+
+  .textbox {
+    left: 400px;
+
+}
+}
+
+@media only screen and (max-width: 1017px) {
+  .canyonpic {
+    left:580px;
+  }
+  .camerapic {
+    left: 560px;
+  }
+
+  .swisspic {
+  left: 50px;
+
+  }
+
+  .francepic {
+  left: 80px;
+
+  }
+
+  .textbox {
+    left: 380px;
+
+}
+}
 /*
   Large devices (desktops, 992px and down)
 */
 @media only screen and (max-width: 992px) {
   /* styles go here */
+  .canyonpic {
+    left:540px;
+  }
+  .camerapic {
+    left: 520px;
+  }
+
+  .swisspic {
+  left: 10px;
+
+  }
+
+  .francepic {
+  left: 40px;
+
+  }
+
+  .textbox {
+    left: 340px;
+
+}
+
+}
+
+@media only screen and (max-width: 953px) {
+  /* styles go here */
+  .canyonpic {
+    left:520px;
+  }
+  .camerapic {
+    left: 500px;
+  }
+
+  .swisspic {
+  left: 0px;
+
+  }
+
+  .francepic {
+  left: 20px;
+
+  }
+
+  .textbox {
+    left: 320px;
+
+}
+
+}
+@media only screen and (max-width: 933px) {
+  /* styles go here */
+  .canyonpic {
+    left:500px;
+  }
+  .camerapic {
+    left: 500px;
+  }
+
+  .swisspic {
+  left: 0px;
+
+  }
+
+  .francepic {
+  left: 0px;
+
+  }
+
+  .textbox {
+    left: 300px;
+
+}
 
 }
 
 /*
   Medium devices (tablets, 768px and down)
 */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   /* styles go here */
+
+
+  .canyonpic {
+    left:440px;
+  }
+  .camerapic {
+    left: 440px;
+  }
+
+  .swisspic {
+  left: 0px;
+
+  }
+
+  .francepic {
+  left: 0px;
+
+  }
+
+  .textbox {
+    left: 260px;
+
+}
 
   /* -----MAP SECTION----- */
   .flex-mapcontainer {
@@ -558,17 +749,31 @@ p {
   }
 
   .subscribe {
-    border-width: 2px;
-    border-color: white;
-    border-style: solid;
-    padding: 5px;
-    /* max-width: 600px; */
-    display: block;
     text-align: center;
+    margin: 0 auto;
+  }
 
+  .email-line {
+  justify-content: center;
 
   }
 
+  /* .required-email{
+
+  }
+
+.clear {
+  display: flex;
+  flex-direction: row; */
+/* }
+#mce-EMAIL {
+  text-align: center;
+}
+
+#mc-embedded-subscribe {
+  display: flex;
+  flex-direction: row;
+}
   .form {
     display: flex;
     flex-direction: row;
@@ -577,12 +782,14 @@ p {
   .button {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
-  .social-subscribe {
+  /* .social-subscribe {
     text-align: center;
 
-  }
+  } */
+
+
 
 /* ------NAVIGATION SECTION------- */
   .navigation {
@@ -654,7 +861,8 @@ p {
 }
 
 .navigation ul li:hover > ul.nested-list {
-		display: block;
+		display: flex;
+    flex-direction: column;
 	}
 
   .navigation ul.nested-list:after {
@@ -668,6 +876,12 @@ p {
     li:hover ul.nested-list {
       display: flex;
       flex-direction: column;
+      justify-content: flex-end;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      /* border: 1px black;
+      border-style: solid; */
     }
 
     li {
@@ -677,18 +891,98 @@ p {
     }
     nav ul ul {
 
-      left: 00;
+      left: 0;
       /* top: 300%; */
       list-style: none;
       background: white;
       z-index: 99;
       padding: 5px;
       margin-bottom: 20px;
-      text-align: left;
+      text-align: center;
 
       /* width: 10px; */
 
 
+}
+
+@media only screen and (max-width: 800px) {
+  /* styles go here */
+  .canyonpic {
+    display: none;
+  }
+  .camerapic {
+    display: none;
+  }
+
+  .swisspic {
+    display: flex;
+    flex-direction: column;
+    top: 350px;
+    left: 0px;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+
+  }
+
+  .francepic {
+    display: flex;
+    flex-direction: column;
+    /* left:0px; */
+
+    left: 0;
+
+  }
+
+  .textbox {
+    /* display: flex;
+    flex-direction: column; */
+    left: 70px;
+    right: 5px;
+    top: -170px;
+    /* left: 0px;
+    padding-top: 0px;
+    top:0px; */
+
+  }
+.aboutmeimages {
+  display: flex;
+  flex-direction: column;
+
+
+}
+.whereissarah {
+  margin-top: 60px;
+}
+
+h2 {
+  padding-top: 0px;
+}
+  /* .canyonpic {
+    display: none;
+  }
+  .camerapic {
+    display: none;
+  }
+  .swisspic {
+    top: 645px;
+    margin-bottom: 100px;
+    width: 100%
+
+  }
+
+  .textbox {
+    left: 70px;
+    top: 180px;
+    position: relative;
+
+  }
+
+  .whereissarah {
+  width: 100%;
+  margin-top: 200px;
+  } */
 }
 
 /*
@@ -696,4 +990,65 @@ p {
 */
 @media only screen and (max-width: 576px) {
   /* styles go here */
+  .canyonpic {
+    display: none;
+  }
+  .camerapic {
+    display: none;
+  }
+
+  .swisspic {
+    top: 419px;
+    left: 0px;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+
+  }
+
+  .francepic {
+    display: flex;
+    flex-direction: column;
+    /* left:0px; */
+    top: 50px;
+    left: 0;
+
+  }
+
+  .textbox {
+    /* display: flex;
+    flex-direction: column; */
+    left: 70px;
+  right: 5px;
+  top: -70px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+    /* left: 0px;
+    padding-top: 0px;
+    top:0px; */
+
+  }
+.aboutmeimages {
+  display: flex;
+  flex-direction: column;
+
+
+}
+.whereissarah {
+  margin-top: 80px;
+  position: relative;
+  top: 63px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.map-text2 {
+  padding-bottom: 30px;
+  order: 2;
+}
 }
