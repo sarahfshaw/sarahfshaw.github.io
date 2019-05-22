@@ -378,9 +378,9 @@ h2 {
 .abouttext {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 70px;
-  margin-right: 70px;
-  float: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
 }
 
 .flex-bucketlistcontainer {
@@ -457,8 +457,8 @@ h2 {
 }
 
 .blogpost-content {
-  margin: 0px 100px;
-  float: center;
+  margin: 30px;
+  text-align: left;
 }
 
 .blogpost-content li{
@@ -485,7 +485,7 @@ h2 {
 }
 
 .affiliatelink-text {
-  margin: 20px;
+  margin: 30px;
   text-align: left;
 }
 
@@ -1079,4 +1079,18 @@ h2 {
   padding-bottom: 30px;
   order: 2;
 }
+
+
+.affiliatelink-text {
+  margin: 10px;
+}
+
+.abouttext {
+  margin: 10px;
+}
+
+.blogpost-content {
+  margin: 10px;
+}
+
 }
