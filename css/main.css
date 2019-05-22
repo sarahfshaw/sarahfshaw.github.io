@@ -727,10 +727,22 @@ p {
     display: flex;
     flex-direction: column;
 
+
   }
 
+  .map-text1 {
+    order: -1;
+    text-align: left;
+    left: 20px;
+  }
   .map-text2 {
-    order: 1;
+    order: -1;
+    margin-top: -15px;
+    padding-top: 0px;
+  }
+
+  .location2 {
+    margin-bottom: 40px;
   }
 
 
@@ -1077,8 +1089,8 @@ h2 {
 }
 
 .map-text2 {
-  padding-bottom: 30px;
-  order: 2;
+
+
 }
 
 
