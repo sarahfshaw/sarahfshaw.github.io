@@ -795,6 +795,7 @@ p {
   .navigation {
     /* padding: 0 8px; */
     padding-left: 200px;
+    padding-right: 10px;
 
   }
   .navigation ul {
@@ -844,6 +845,7 @@ p {
 .nav-container ul {
   margin-left: 0px;
   margin-bottom: 5px;
+  margin-right: 5px;
   width: 100%;
 
 
@@ -892,15 +894,15 @@ p {
     nav ul ul {
 
       left: 0;
-      /* top: 300%; */
-      list-style: none;
+
       background: white;
       z-index: 99;
       padding: 5px;
       margin-bottom: 20px;
       text-align: center;
+    }
 
-      /* width: 10px; */
+
 
 
 }
