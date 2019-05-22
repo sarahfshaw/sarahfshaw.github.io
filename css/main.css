@@ -471,13 +471,37 @@ h2 {
   text-align: center;
 }
 
-/* --AMAZON LINKS--  */
+/* --AFFILIATE LINKS BLOGS--  */
 
 .amazon img{
   max-width: 100px;
 }
 
+.affiliatelink-title {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 10px;
 
+}
+
+.affiliatelink-text {
+  margin: 20px;
+  text-align: left;
+}
+
+.affiliatelink-picture{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.affiliatelink-picture img {
+  max-width: 200px;
+}
+
+.clickon {
+  text-align: center;
+}
 
 
 /* ----RESPONSIVE DESIGN---- */
