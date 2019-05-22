@@ -218,7 +218,7 @@ h3 {
   border: 1px deepskyblue;
   border-style: solid;
   width: 260px;
-  height: 312px;
+  height: 314px;
   padding: 10px 46px 25px;
   bottom: 0;
   right: 0;
@@ -807,6 +807,7 @@ p {
   .navigation ul{
     width: 48%;
     margin-bottom: 10px;
+    padding-right: 10px;
     text-align: right;
     justify-content: flex-end;
   }
