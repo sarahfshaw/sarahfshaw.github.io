@@ -1232,6 +1232,22 @@ h2 {
       top: -70px;
       margin-top: -20px;
       margin-bottom: 0px;
+      width: 260px;
+      height: 316px;
+
+      .readmore a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+      }
+
+      .readmore {
+        text-align: center;
+        border: 1px deepskyblue;
+        border-style: solid;
+        margin-bottom: 4px;
+      }
+
 
 
 
